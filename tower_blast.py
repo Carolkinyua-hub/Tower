@@ -79,9 +79,9 @@ def main():
           ind=int(position)
           print(ind)
           replaced=user_hand[ind]
-          print("replacing:",replaced,"with",i,"\n")
+          print("replacing:",replaced,"with",x,"\n")
           user_hand.remove(replaced)
-          user_hand.insert(ind,i)
+          user_hand.insert(ind,x)
           print("user_hand=",user_hand)  
           if user_hand==sorted(user_hand):
             print("winner is the User",user_hand)
