@@ -1,6 +1,4 @@
-#149794
-#Nyaguthii Kinyua
-#Declaration:This is my original work, with no assistance
+
 import random
 def main():
  if __name__=="__main__":
